@@ -1,6 +1,6 @@
 {
   "name": "all-terrain-hash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "All Terrain Object Hashing",
   "main": "index.js",
   "scripts": {

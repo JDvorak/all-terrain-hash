@@ -1,4 +1,4 @@
-# all-terrain-hash [![stability][1]][1]
+# all-terrain-hash [![stability][0]][1]
 [![npm version][2]][3] [![downloads][8]][9] [![js-standard-style][10]][11]
 
 All Terrain Object Hashing.
