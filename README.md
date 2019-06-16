@@ -6,10 +6,7 @@ All Terrain Object Hashing.
 Hash any javascript object, functions, undefined, warts and all. This utility takes any javascript object and hashes it in a reproducible deterministic way. Functions are decomposed into an AST, with comments and whitespace discarded. Objects are ordered in a consistent and safe way. It even takes into account the difference between an `undefined` and a `null`.
 
 ## Why?
-Sometimes you need to know when anything is different. For instance, if you are handling code across distributed lines.
-
-There are a lot of different libraries which hash objects, even I slammed some code together and made another one. So, why yet another one? 
-
+Sometimes you need to know when anything is different. For instance, if you are handling code across distributed services, or doing stuff that git should be responsible for ;)
 
 
 ## Usage
