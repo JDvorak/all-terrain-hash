@@ -1,0 +1,37 @@
+{
+  "name": "all-terrain-hash",
+  "version": "0.0.1",
+  "description": "All Terrain Object Hashing",
+  "main": "index.js",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test": "standard && npm run deps && NODE_ENV=test node test",
+    "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "jdvorak/all-terrain-hash",
+  "keywords": [
+    "hash",
+    "blake",
+    "blake2b",
+    "object-hashing",
+    "deterministic",
+    "cylical object hash",
+    "function hash",
+    "ast function hash"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^6.1.1",
+    "acorn-jsx": "^5.0.1",
+    "blake2b": "^2.1.3",
+    "cyclical-object-hash": "^0.1.0",
+    "fast-json-stable-stringify": "^2.0.0",
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {
+    "dependency-check": "^3.3.0",
+    "istanbul": "^0.4.5",
+    "standard": "^11.0.1",
+    "tape": "^4.10.2"
+  }
+}
